@@ -1,0 +1,245 @@
+.services {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-between;
+
+    .service-title {
+        font-family: "lato", sans-serif;
+        font-size: 38px;
+        font-weight: 400;
+        letter-spacing: 0.90px;
+        color: $about-color;
+        line-height: 52px;
+        text-align: center;
+    }
+
+    .service-line {
+        align-self: center;
+        border-bottom: 2px solid $main-color;
+        width: 200px;
+    }
+
+    .service-text {
+        width: 677px;
+        height: 60px;
+        text-align: center;
+        color: $about-color;
+        font-size: 15px;
+        font-family: 'lato', sans-serif;
+        font-weight: 300;
+        line-height: 30px;
+        letter-spacing: 0.35px;
+    }
+
+    .circles-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: space-around;
+        width: 1000px;
+
+
+
+        .circles {
+            margin-top: 50px;
+            border: 1px solid $about-color;
+            border-radius: 50%;
+            height: 15vh;
+            width: 15vh;
+            transition: 0.1s linear;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            img {
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        p {
+            text-align: center;
+            margin-top: 10px;
+            color: $main-color;
+            font-family: 'lato', sans-serif;
+            font-size: 15px;
+            font-weight: 800;
+            line-height: 30px;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .services {
+        height: 100vh;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        align-content: space-between;
+
+        .service-title {
+            font-family: "lato", sans-serif;
+            font-size: 38px;
+            font-weight: 400;
+            letter-spacing: 0.90px;
+            color: $about-color;
+            line-height: 52px;
+            text-align: center;
+        }
+
+        .service-line {
+            align-self: center;
+            border-bottom: 2px solid $main-color;
+            width: 200px;
+        }
+
+        .service-text {
+            width: 350px;
+            height: 60px;
+            text-align: center;
+            color: $about-color;
+            font-size: 15px;
+            font-family: 'lato', sans-serif;
+            font-weight: 300;
+            line-height: 30px;
+            letter-spacing: 0.35px;
+        }
+
+        .circles-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            align-content: space-around;
+            width: 300px;
+
+
+
+            .circles {
+                margin-top: 50px;
+                border: 1px solid $about-color;
+                border-radius: 50%;
+                height: 15vh;
+                width: 15vh;
+                transition: 0.1s linear;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+
+                img {
+                    position: relative;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            p {
+                text-align: center;
+                margin-top: 10px;
+                color: $main-color;
+                font-family: 'lato', sans-serif;
+                font-size: 15px;
+                font-weight: 800;
+                line-height: 30px;
+                text-transform: uppercase;
+                letter-spacing: 0.4px;
+            }
+        }
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .services {
+        height: 80vh;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        align-content: space-between;
+
+        .service-title {
+            font-family: "lato", sans-serif;
+            font-size: 38px;
+            font-weight: 400;
+            letter-spacing: 0.90px;
+            color: $about-color;
+            line-height: 52px;
+            text-align: center;
+        }
+
+        .service-line {
+            align-self: center;
+            border-bottom: 2px solid $main-color;
+            width: 200px;
+        }
+
+        .service-text {
+            width: 450px;
+            height: 60px;
+            text-align: center;
+            color: $about-color;
+            font-size: 15px;
+            font-family: 'lato', sans-serif;
+            font-weight: 300;
+            line-height: 30px;
+            letter-spacing: 0.35px;
+        }
+
+        .circles-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            align-content: space-around;
+            width: 400px;
+
+
+
+            .circles {
+                margin-top: 50px;
+                border: 1px solid $about-color;
+                border-radius: 50%;
+                height: 15vh;
+                width: 15vh;
+                transition: 0.1s linear;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+
+                img {
+                    position: relative;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            p {
+                text-align: center;
+                margin-top: 10px;
+                color: $main-color;
+                font-family: 'lato', sans-serif;
+                font-size: 15px;
+                font-weight: 800;
+                line-height: 30px;
+                text-transform: uppercase;
+                letter-spacing: 0.4px;
+            }
+        }
+    }
+}

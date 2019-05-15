@@ -1,0 +1,291 @@
+.download {
+    height: 80vh;
+    background-color: $about-background;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .dl-img {
+        margin-left: 45px;
+    }
+
+
+    .text-section {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 34%;
+        margin-left: 35px;
+
+
+
+        .dl-title {
+            color: $about-color;
+            font-family: 'lato', sans-serif;
+            font-size: 38px;
+            font-weight: 300;
+            line-height: 52px;
+            letter-spacing: 0.95px;
+            margin-bottom: 20px;
+        }
+
+        .dl-line {
+            border-bottom: 2px solid $main-color;
+            width: 200px;
+        }
+
+        .dl-text {
+            color: $about-color;
+            font-family: 'lato', sans-serif;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 30px;
+            letter-spacing: 0.38px;
+            margin: 30px 0;
+        }
+
+        .dl-btn {
+            border: none;
+            text-transform: uppercase;
+            color: $top-color;
+            background-color: $main-color;
+            font-family: 'lato', sans-serif;
+            font-weight: 700;
+            border-radius: 25px;
+            width: 200px;
+            height: 50px;
+            transition: 0.3s linear;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $top-color;
+                color: $main-color;
+                border: 2px solid $main-color;
+            }
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .download {
+        height: 130vh;
+        background-color: $about-background;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+
+        .dl-img {
+            margin: 0 auto;
+
+            img {
+                width: 350px;
+            }
+        }
+
+
+        .text-section {
+            display: flex;
+            flex-direction: column;
+            margin-left: 35px;
+
+
+
+
+            .dl-title {
+                color: $about-color;
+                font-family: 'lato', sans-serif;
+                font-size: 38px;
+                font-weight: 300;
+                line-height: 52px;
+                letter-spacing: 0.95px;
+                margin-bottom: 20px;
+                width: 320px;
+            }
+
+            .dl-line {
+                border-bottom: 2px solid $main-color;
+                width: 200px;
+            }
+
+            .dl-text {
+                color: $about-color;
+                font-family: 'lato', sans-serif;
+                font-size: 15px;
+                font-weight: 300;
+                line-height: 30px;
+                letter-spacing: 0.38px;
+                margin: 30px 0;
+            }
+
+            .dl-btn {
+                border: none;
+                text-transform: uppercase;
+                color: $top-color;
+                background-color: $main-color;
+                font-family: 'lato', sans-serif;
+                font-weight: 700;
+                border-radius: 25px;
+                width: 200px;
+                height: 50px;
+                transition: 0.3s linear;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $top-color;
+                    color: $main-color;
+                    border: 2px solid $main-color;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .download {
+        height: 60vh;
+        background-color: $about-background;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+
+        .dl-img {
+            margin: 0 20px;
+
+            img {
+                width: 350px;
+            }
+        }
+
+
+        .text-section {
+            display: flex;
+            flex-direction: column;
+            margin-left: 0px;
+
+
+
+
+            .dl-title {
+                color: $about-color;
+                font-family: 'lato', sans-serif;
+                font-size: 38px;
+                font-weight: 300;
+                line-height: 52px;
+                letter-spacing: 0.95px;
+                margin-bottom: 20px;
+                width: 320px;
+            }
+
+            .dl-line {
+                border-bottom: 2px solid $main-color;
+                width: 200px;
+            }
+
+            .dl-text {
+                color: $about-color;
+                font-family: 'lato', sans-serif;
+                font-size: 15px;
+                font-weight: 300;
+                line-height: 30px;
+                letter-spacing: 0.38px;
+                margin: 30px 0;
+            }
+
+            .dl-btn {
+                border: none;
+                text-transform: uppercase;
+                color: $top-color;
+                background-color: $main-color;
+                font-family: 'lato', sans-serif;
+                font-weight: 700;
+                border-radius: 25px;
+                width: 200px;
+                height: 50px;
+                transition: 0.3s linear;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $top-color;
+                    color: $main-color;
+                    border: 2px solid $main-color;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .download {
+        height: 60vh;
+        background-color: $about-background;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+
+        .dl-img {
+            margin: 0 20px;
+
+            img {
+                width: 600px;
+            }
+        }
+
+
+        .text-section {
+            display: flex;
+            flex-direction: column;
+            margin-left: 0px;
+
+
+
+
+            .dl-title {
+                color: $about-color;
+                font-family: 'lato', sans-serif;
+                font-size: 38px;
+                font-weight: 300;
+                line-height: 52px;
+                letter-spacing: 0.95px;
+                margin-bottom: 20px;
+                width: 320px;
+            }
+
+            .dl-line {
+                border-bottom: 2px solid $main-color;
+                width: 200px;
+            }
+
+            .dl-text {
+                color: $about-color;
+                font-family: 'lato', sans-serif;
+                font-size: 15px;
+                font-weight: 300;
+                line-height: 30px;
+                letter-spacing: 0.38px;
+                margin: 30px 0;
+            }
+
+            .dl-btn {
+                border: none;
+                text-transform: uppercase;
+                color: $top-color;
+                background-color: $main-color;
+                font-family: 'lato', sans-serif;
+                font-weight: 700;
+                border-radius: 25px;
+                width: 200px;
+                height: 50px;
+                transition: 0.3s linear;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $top-color;
+                    color: $main-color;
+                    border: 2px solid $main-color;
+                }
+            }
+        }
+    }
+}

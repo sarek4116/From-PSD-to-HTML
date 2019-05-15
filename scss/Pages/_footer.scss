@@ -1,0 +1,35 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $footer-bgc;
+    height: 10vh;
+}
+
+footer p {
+    color: $top-color;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+@media(max-width: 767px) {
+    footer {
+        display: flex;
+        align-items: center;
+        background-color: $footer-bgc;
+        height: 15vh;
+    }
+
+    footer p {
+        text-align: center;
+        color: $top-color;
+        font-family: 'Lato', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+}

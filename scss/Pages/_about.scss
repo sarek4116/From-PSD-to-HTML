@@ -1,0 +1,345 @@
+.about {
+    margin-top: -25px;
+    display: flex;
+
+    background-color: $about-background;
+
+
+    .texts {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-title {
+        align-self: flex-start;
+        color: $about-color;
+        font-family: "lato", sans-serif;
+        font-size: 38px;
+        font-weight: 600;
+        font-style: italic;
+        line-height: 52px;
+        letter-spacing: 0.5px;
+
+    }
+
+    .about-line {
+        align-self: center;
+        border-top: 2px solid $main-color;
+        width: 200px;
+
+    }
+
+    p {
+
+        align-self: flex-start;
+        padding: 50px 0;
+        width: 467px;
+        color: $about-color;
+        font-family: "lato", sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 30px;
+        letter-spacing: 0.38px;
+    }
+
+    button {
+
+        align-self: flex-start;
+        border: none;
+        background-color: transparent;
+        color: $main-color;
+        font-family: "lato", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+        letter-spacing: 0.1px;
+        text-transform: uppercase;
+        transition: 0.3s linear;
+        cursor: pointer;
+
+        &:hover .fas {
+            color: $about-color;
+
+        }
+    }
+
+    button .fas {
+        padding-left: 3px;
+    }
+
+    .img-mac {
+        margin: 0 auto;
+    }
+
+    .img-mac img {
+        margin-top: 50px;
+        width: 1022px;
+        height: 588px;
+    }
+}
+
+@media (max-width: 767px) {
+
+
+    .about {
+        margin-top: -25px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 120vh;
+        background-color: $about-background;
+
+
+        .texts {
+            margin: 15px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .about-title {
+            align-self: flex-start;
+            color: $about-color;
+            font-family: "lato", sans-serif;
+            font-size: 33px;
+            font-weight: 600;
+            font-style: italic;
+            line-height: 52px;
+            letter-spacing: 0.5px;
+
+        }
+
+        .about-line {
+            align-self: center;
+            border-top: 2px solid $main-color;
+            width: 200px;
+
+        }
+
+        p {
+
+            align-self: flex-start;
+            padding: 50px 0;
+            width: 350px;
+            color: $about-color;
+            font-family: "lato", sans-serif;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 30px;
+            letter-spacing: 0.38px;
+        }
+
+        button {
+
+            align-self: flex-start;
+            border: none;
+            background-color: transparent;
+            color: $main-color;
+            font-family: "lato", sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 30px;
+            letter-spacing: 0.1px;
+            text-transform: uppercase;
+            transition: 0.3s linear;
+            cursor: pointer;
+
+            &:hover .fas {
+                color: $about-color;
+
+            }
+        }
+
+        button .fas {
+            padding-left: 3px;
+        }
+
+        .img-mac {
+            margin: 0 auto;
+        }
+
+        .img-mac img {
+            margin-top: 50px;
+            width: 350px;
+            height: 250px;
+        }
+
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+
+    .about {
+        margin-top: -25px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 50vh;
+        background-color: $about-background;
+
+
+        .texts {
+            margin: 15px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .about-title {
+            align-self: flex-start;
+            color: $about-color;
+            font-family: "lato", sans-serif;
+            font-size: 33px;
+            font-weight: 600;
+            font-style: italic;
+            line-height: 52px;
+            letter-spacing: 0.5px;
+
+        }
+
+        .about-line {
+            align-self: center;
+            border-top: 2px solid $main-color;
+            width: 200px;
+
+        }
+
+        p {
+
+            align-self: flex-start;
+            padding: 50px 0;
+            width: 350px;
+            color: $about-color;
+            font-family: "lato", sans-serif;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 30px;
+            letter-spacing: 0.38px;
+        }
+
+        button {
+
+            align-self: flex-start;
+            border: none;
+            background-color: transparent;
+            color: $main-color;
+            font-family: "lato", sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 30px;
+            letter-spacing: 0.1px;
+            text-transform: uppercase;
+            transition: 0.3s linear;
+            cursor: pointer;
+
+            &:hover .fas {
+                color: $about-color;
+
+            }
+        }
+
+        button .fas {
+            padding-left: 3px;
+        }
+
+        .img-mac {
+            margin: 0 auto;
+        }
+
+        .img-mac img {
+            margin-top: 50px;
+            width: 350px;
+            height: 250px;
+        }
+
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+
+
+    .about {
+        margin-top: -25px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 50vh;
+        background-color: $about-background;
+
+
+        .texts {
+            margin: 15px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .about-title {
+            align-self: flex-start;
+            color: $about-color;
+            font-family: "lato", sans-serif;
+            font-size: 33px;
+            font-weight: 600;
+            font-style: italic;
+            line-height: 52px;
+            letter-spacing: 0.5px;
+
+        }
+
+        .about-line {
+            align-self: center;
+            border-top: 2px solid $main-color;
+            width: 200px;
+
+        }
+
+        p {
+
+            align-self: flex-start;
+            padding: 50px 0;
+            width: 350px;
+            color: $about-color;
+            font-family: "lato", sans-serif;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 30px;
+            letter-spacing: 0.38px;
+        }
+
+        button {
+
+            align-self: flex-start;
+            border: none;
+            background-color: transparent;
+            color: $main-color;
+            font-family: "lato", sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 30px;
+            letter-spacing: 0.1px;
+            text-transform: uppercase;
+            transition: 0.3s linear;
+            cursor: pointer;
+
+            &:hover .fas {
+                color: $about-color;
+
+            }
+        }
+
+        button .fas {
+            padding-left: 3px;
+        }
+
+        .img-mac {
+            margin: 0 auto;
+        }
+
+        .img-mac img {
+            align-self: center;
+            width: 550px;
+            height: 450px;
+        }
+
+    }
+}

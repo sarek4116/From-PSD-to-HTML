@@ -1,0 +1,24 @@
+@import './Tools/variables';
+@import './Tools/reset';
+@import './Tools/container';
+@import './Pages/header';
+@import './Pages/about';
+@import './Pages/services';
+@import './Pages/carousel';
+@import './Pages/price-cards';
+@import './Pages/offers';
+@import './Pages/join-us';
+@import './Pages/updates';
+@import './Pages/show-more';
+@import './Pages/download';
+@import './Pages/footer';
+
+.gradient {
+    width: 100%;
+    background-color: $main-color;
+    height: 38px;
+    transform: rotateY(-1deg);
+    position: relative;
+    top: -20px;
+    z-index: -1;
+}

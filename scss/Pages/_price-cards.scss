@@ -1,0 +1,655 @@
+.prices {
+    height: 80vh;
+    background-color: $about-background;
+
+    .prices-body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        align-content: space-between;
+    }
+
+    .price-title {
+        color: $about-color;
+        font-family: 'lato', sans-serif;
+        font-size: 38px;
+        font-weight: 300;
+        line-height: 52px;
+        letter-spacing: 0.95px;
+    }
+
+    .price-line {
+        border-bottom: 2px solid $main-color;
+        width: 200px;
+    }
+
+    .price-text {
+        text-align: center;
+        color: $about-color;
+        font-family: 'lato', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.38px;
+        width: 681px;
+
+    }
+
+    .cards {
+        width: 100%;
+    }
+
+    .standard-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        align-content: space-around;
+        width: 262px;
+        height: 443px;
+        background-color: $top-color;
+        box-shadow: 4px 5px 5px rgba(104, 104, 104, 0.8);
+
+
+
+
+        .body-top {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 262px;
+            height: 150px;
+            background: $about-color;
+
+
+
+
+
+            h4 {
+                color: $about-background;
+                font-family: 'lato', sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 38px;
+                letter-spacing: 0.5px;
+                margin-bottom: 20px;
+            }
+
+            span {
+                color: $about-background;
+                font-size: 50px;
+                font-family: 'lato,sans-serif';
+                font-weight: 700;
+                line-height: 38px;
+                letter-spacing: 1.25px;
+            }
+
+            p {
+                padding: 0;
+                color: $about-background;
+                font-family: 'lato', sans-serif;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 15px;
+                letter-spacing: 0.38px;
+            }
+
+        }
+
+
+
+        .service-type {
+            text-align: center;
+            width: 200px;
+            height: 50px;
+            line-height: 50px;
+            border-radius: 25px;
+            background-color: $about-background;
+            color: $about-color;
+            text-transform: uppercase;
+            font-family: 'lato', sans-serif;
+            font-size: 15px;
+            letter-spacing: 0.38px;
+            font-weight: 700;
+            margin-top: -50px;
+        }
+
+
+
+
+        ul {
+            text-align: center;
+            list-style: none;
+            width: 138px;
+            color: #5a5a5a;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 38px;
+
+        }
+
+        .buy-now {
+            width: 200px;
+            height: 50px;
+            border: none;
+            border-radius: 25px;
+            background-color: $main-color;
+            color: white;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 38px;
+            text-transform: uppercase;
+            letter-spacing: 0.38px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            transition: 0.2s ease;
+
+            &:hover {
+                border: 2px solid $main-color;
+                transform: scale(1.1, 1.1);
+                background-color: $top-color;
+                color: $main-color;
+            }
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .prices {
+        height: 350vh;
+        background-color: $about-background;
+
+        .prices-body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            align-content: space-between;
+        }
+
+        .price-title {
+            color: $about-color;
+            font-family: 'lato', sans-serif;
+            font-size: 38px;
+            font-weight: 300;
+            line-height: 52px;
+            letter-spacing: 0.95px;
+        }
+
+        .price-line {
+            border-bottom: 2px solid $main-color;
+            width: 200px;
+        }
+
+        .price-text {
+            text-align: center;
+            color: $about-color;
+            font-family: 'lato', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.38px;
+            width: 301px;
+
+        }
+
+        .cards {
+            width: 100%;
+        }
+
+        .standard-card {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin: 5px auto;
+            align-items: center;
+            justify-content: space-between;
+            align-content: space-around;
+            width: 262px;
+            height: 443px;
+            background-color: $top-color;
+            box-shadow: 4px 5px 5px rgba(104, 104, 104, 0.8);
+
+
+
+
+            .body-top {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 262px;
+                height: 150px;
+                background: $about-color;
+
+
+
+
+
+                h4 {
+                    color: $about-background;
+                    font-family: 'lato', sans-serif;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 38px;
+                    letter-spacing: 0.5px;
+                    margin-bottom: 20px;
+                }
+
+                span {
+                    color: $about-background;
+                    font-size: 50px;
+                    font-family: 'lato,sans-serif';
+                    font-weight: 700;
+                    line-height: 38px;
+                    letter-spacing: 1.25px;
+                }
+
+                p {
+                    padding: 0;
+                    color: $about-background;
+                    font-family: 'lato', sans-serif;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 15px;
+                    letter-spacing: 0.38px;
+                }
+
+            }
+
+
+
+            .service-type {
+                text-align: center;
+                width: 200px;
+                height: 50px;
+                line-height: 50px;
+                border-radius: 25px;
+                background-color: $about-background;
+                color: $about-color;
+                text-transform: uppercase;
+                font-family: 'lato', sans-serif;
+                font-size: 15px;
+                letter-spacing: 0.38px;
+                font-weight: 700;
+                margin-top: -50px;
+            }
+
+
+
+
+            ul {
+                text-align: center;
+                list-style: none;
+                width: 138px;
+                color: #5a5a5a;
+                font-family: Lato;
+                font-size: 15px;
+                font-weight: 300;
+                line-height: 38px;
+
+            }
+
+            .buy-now {
+                width: 200px;
+                height: 50px;
+                border: none;
+                border-radius: 25px;
+                background-color: $main-color;
+                color: white;
+                font-family: Lato;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 38px;
+                text-transform: uppercase;
+                letter-spacing: 0.38px;
+                margin-bottom: 15px;
+                cursor: pointer;
+                transition: 0.2s ease;
+
+                &:hover {
+                    border: 2px solid $main-color;
+                    transform: scale(1.1, 1.1);
+                    background-color: $top-color;
+                    color: $main-color;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .prices {
+        height: 110vh;
+        background-color: $about-background;
+
+        .prices-body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            align-content: space-between;
+        }
+
+        .price-title {
+            color: $about-color;
+            font-family: 'lato', sans-serif;
+            font-size: 38px;
+            font-weight: 300;
+            line-height: 52px;
+            letter-spacing: 0.95px;
+        }
+
+        .price-line {
+            border-bottom: 2px solid $main-color;
+            width: 200px;
+        }
+
+        .price-text {
+            text-align: center;
+            color: $about-color;
+            font-family: 'lato', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.38px;
+            width: 401px;
+
+        }
+
+        .cards {
+            width: 80%;
+        }
+
+        .standard-card {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin: 5px auto;
+            align-items: center;
+            justify-content: space-between;
+            align-content: space-around;
+            width: 262px;
+            height: 443px;
+            background-color: $top-color;
+            box-shadow: 4px 5px 5px rgba(104, 104, 104, 0.8);
+
+
+
+
+            .body-top {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 262px;
+                height: 150px;
+                background: $about-color;
+
+
+
+
+
+                h4 {
+                    color: $about-background;
+                    font-family: 'lato', sans-serif;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 38px;
+                    letter-spacing: 0.5px;
+                    margin-bottom: 20px;
+                }
+
+                span {
+                    color: $about-background;
+                    font-size: 50px;
+                    font-family: 'lato,sans-serif';
+                    font-weight: 700;
+                    line-height: 38px;
+                    letter-spacing: 1.25px;
+                }
+
+                p {
+                    padding: 0;
+                    color: $about-background;
+                    font-family: 'lato', sans-serif;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 15px;
+                    letter-spacing: 0.38px;
+                }
+
+            }
+
+
+
+            .service-type {
+                text-align: center;
+                width: 200px;
+                height: 50px;
+                line-height: 50px;
+                border-radius: 25px;
+                background-color: $about-background;
+                color: $about-color;
+                text-transform: uppercase;
+                font-family: 'lato', sans-serif;
+                font-size: 15px;
+                letter-spacing: 0.38px;
+                font-weight: 700;
+                margin-top: -50px;
+            }
+
+
+
+
+            ul {
+                text-align: center;
+                list-style: none;
+                width: 138px;
+                color: #5a5a5a;
+                font-family: Lato;
+                font-size: 15px;
+                font-weight: 300;
+                line-height: 38px;
+
+            }
+
+            .buy-now {
+                width: 200px;
+                height: 50px;
+                border: none;
+                border-radius: 25px;
+                background-color: $main-color;
+                color: white;
+                font-family: Lato;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 38px;
+                text-transform: uppercase;
+                letter-spacing: 0.38px;
+                margin-bottom: 15px;
+                cursor: pointer;
+                transition: 0.2s ease;
+
+                &:hover {
+                    border: 2px solid $main-color;
+                    transform: scale(1.1, 1.1);
+                    background-color: $top-color;
+                    color: $main-color;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .prices {
+        height: 90vh;
+        background-color: $about-background;
+
+        .prices-body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            align-content: space-between;
+        }
+
+        .price-title {
+            color: $about-color;
+            font-family: 'lato', sans-serif;
+            font-size: 38px;
+            font-weight: 300;
+            line-height: 52px;
+            letter-spacing: 0.95px;
+        }
+
+        .price-line {
+            border-bottom: 2px solid $main-color;
+            width: 200px;
+        }
+
+        .price-text {
+            text-align: center;
+            color: $about-color;
+            font-family: 'lato', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.38px;
+            width: 401px;
+
+        }
+
+        .cards {
+            width: 60%;
+        }
+
+        .standard-card {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin: 5px auto;
+            align-items: center;
+            justify-content: space-between;
+            align-content: space-around;
+            width: 262px;
+            height: 443px;
+            background-color: $top-color;
+            box-shadow: 4px 5px 5px rgba(104, 104, 104, 0.8);
+
+
+
+
+            .body-top {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 262px;
+                height: 150px;
+                background: $about-color;
+
+
+
+
+
+                h4 {
+                    color: $about-background;
+                    font-family: 'lato', sans-serif;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 38px;
+                    letter-spacing: 0.5px;
+                    margin-bottom: 20px;
+                }
+
+                span {
+                    color: $about-background;
+                    font-size: 50px;
+                    font-family: 'lato,sans-serif';
+                    font-weight: 700;
+                    line-height: 38px;
+                    letter-spacing: 1.25px;
+                }
+
+                p {
+                    padding: 0;
+                    color: $about-background;
+                    font-family: 'lato', sans-serif;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 15px;
+                    letter-spacing: 0.38px;
+                }
+
+            }
+
+
+
+            .service-type {
+                text-align: center;
+                width: 200px;
+                height: 50px;
+                line-height: 50px;
+                border-radius: 25px;
+                background-color: $about-background;
+                color: $about-color;
+                text-transform: uppercase;
+                font-family: 'lato', sans-serif;
+                font-size: 15px;
+                letter-spacing: 0.38px;
+                font-weight: 700;
+                margin-top: -50px;
+            }
+
+
+
+
+            ul {
+                text-align: center;
+                list-style: none;
+                width: 138px;
+                color: #5a5a5a;
+                font-family: Lato;
+                font-size: 15px;
+                font-weight: 300;
+                line-height: 38px;
+
+            }
+
+            .buy-now {
+                width: 200px;
+                height: 50px;
+                border: none;
+                border-radius: 25px;
+                background-color: $main-color;
+                color: white;
+                font-family: Lato;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 38px;
+                text-transform: uppercase;
+                letter-spacing: 0.38px;
+                margin-bottom: 15px;
+                cursor: pointer;
+                transition: 0.2s ease;
+
+                &:hover {
+                    border: 2px solid $main-color;
+                    transform: scale(1.1, 1.1);
+                    background-color: $top-color;
+                    color: $main-color;
+                }
+            }
+        }
+    }
+}
