@@ -1,6 +1,6 @@
 .show-more {
     height: 65vh;
-    background-image: url(/scss/Images/background3.png);
+    background-image: url(./scss/Images/background3.png);
     background-size: cover;
     background-position: center;
 
@@ -66,7 +66,7 @@
 @media(max-width: 767px) {
     .show-more {
         height: 75vh;
-        background-image: url(/scss/Images/background3.png);
+        background-image: url(./scss/Images/background3.png);
         background-size: cover;
         background-position: center;
 
@@ -134,7 +134,7 @@
 @media(min-width: 768px) and (max-width: 991px) {
     .show-more {
         height: 45vh;
-        background-image: url(/scss/Images/background3.png);
+        background-image: url(./scss/Images/background3.png);
         background-size: cover;
         background-position: center;
 
@@ -202,7 +202,7 @@
 @media(min-width: 992px) and (max-width: 1199px) {
     .show-more {
         height: 40vh;
-        background-image: url(/scss/Images/background3.png);
+        background-image: url(./scss/Images/background3.png);
         background-size: cover;
         background-position: center;
 
