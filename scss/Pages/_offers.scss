@@ -1,19 +1,18 @@
 .offer {
-    height: 60vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-
-
+    padding: 35px;
 
     .offers {
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-basis: 33%;
 
         img {
-            margin: 0 10px;
+            margin: 0 5px;
             height: 57px;
             width: 57px;
         }
@@ -21,6 +20,7 @@
 
     .offer-text {
         flex-basis: 70%;
+        margin: 20px;
 
         h2 {
             color: $main-color;
@@ -46,7 +46,6 @@
 
 @media(max-width: 767px) {
     .offer {
-        height: 110vh;
         display: flex;
         flex-direction: column;
         margin-top: 10px;
@@ -92,6 +91,54 @@
                 letter-spacing: 0.2px;
             }
 
+        }
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .offer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+
+        .offers {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-basis: 33%;
+
+            img {
+                margin: 0 5px;
+                height: 57px;
+                width: 57px;
+            }
+        }
+
+        .offer-text {
+            flex-basis: 90%;
+            margin: 20px;
+
+            h2 {
+                color: $main-color;
+                font-family: 'Lato', sans-serif;
+                font-size: 15px;
+                font-weight: 800;
+                line-height: 30px;
+                text-transform: uppercase;
+                letter-spacing: 0.38px;
+            }
+
+            p {
+
+                color: $about-color;
+                font-family: 'Lato', sans-serif;
+                font-size: 15px;
+                font-weight: 300;
+                line-height: 25px;
+                letter-spacing: 0.2px;
+            }
         }
     }
 }

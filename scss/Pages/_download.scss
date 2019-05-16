@@ -1,11 +1,13 @@
 .download {
-    height: 80vh;
     background-color: $about-background;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    padding: 15px;
+
 
     .dl-img {
+        margin-top: 20px;
         margin-left: 45px;
     }
 
@@ -67,11 +69,11 @@
 
 @media(max-width: 767px) {
     .download {
-        height: 130vh;
         background-color: $about-background;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        padding: 20px 0;
 
 
         .dl-img {
@@ -142,7 +144,6 @@
 
 @media(min-width: 768px) and (max-width: 991px) {
     .download {
-        height: 60vh;
         background-color: $about-background;
         display: flex;
         flex-wrap: wrap;
@@ -204,6 +205,7 @@
                 height: 50px;
                 transition: 0.3s linear;
                 cursor: pointer;
+                margin-bottom: 10px;
 
                 &:hover {
                     background-color: $top-color;
@@ -217,7 +219,6 @@
 
 @media(min-width: 992px) and (max-width: 1199px) {
     .download {
-        height: 60vh;
         background-color: $about-background;
         display: flex;
         flex-wrap: wrap;

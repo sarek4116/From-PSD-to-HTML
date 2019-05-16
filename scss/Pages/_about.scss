@@ -1,7 +1,6 @@
 .about {
     margin-top: -25px;
     display: flex;
-
     background-color: $about-background;
 
 
@@ -87,7 +86,6 @@
         margin-top: -25px;
         display: flex;
         flex-wrap: wrap;
-        height: 120vh;
         background-color: $about-background;
 
 
@@ -175,7 +173,6 @@
         margin-top: -25px;
         display: flex;
         flex-wrap: wrap;
-        height: 50vh;
         background-color: $about-background;
 
 
@@ -219,7 +216,6 @@
         }
 
         button {
-
             align-self: flex-start;
             border: none;
             background-color: transparent;
@@ -245,6 +241,7 @@
 
         .img-mac {
             margin: 0 auto;
+            align-self: center;
         }
 
         .img-mac img {
@@ -263,7 +260,6 @@
         margin-top: -25px;
         display: flex;
         flex-wrap: wrap;
-        height: 50vh;
         background-color: $about-background;
 
 

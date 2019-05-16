@@ -1,10 +1,9 @@
 @charset "UTF-8";
-
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .container {
@@ -18,24 +17,24 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -ms-flex-line-pack: distribute;
-  align-content: space-around;
+      align-content: space-around;
 }
 
 header {
-  height: 80vh;
-  background-image: url(./scss/Images/Background.png);
+  background-image: url(./Images/Background.png);
   background-size: cover;
   background-position: center;
   position: relative;
   z-index: 1;
+  height: 100vh;
 }
 
 header .nav-top {
@@ -44,8 +43,8 @@ header .nav-top {
 
 header .nav-top .title {
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   color: #ffffff;
   font-family: "lato", sans-serif;
   font-size: 25px;
@@ -68,15 +67,15 @@ header .nav-top ul {
   list-style: none;
   padding-right: 150px;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 header .nav-top li {
   padding: 0px 10px;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 header .nav-top a {
@@ -101,13 +100,13 @@ header .text {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
   text-align: center;
 }
 
@@ -118,8 +117,8 @@ header .text .title-two {
   font-weight: 300;
   text-transform: uppercase;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   letter-spacing: 1.15px;
   line-height: 24px;
 }
@@ -173,18 +172,16 @@ header .text .btn-top:hover {
 
 @media (max-width: 767px) {
   header {
-    height: 100vh;
-    background-image: url(./scss/Images/Background.png);
+    background-image: url(./Images/Background.png);
     background-size: cover;
     background-position: center;
     position: relative;
     z-index: 1;
   }
-
   header .nav-top .title {
     -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     color: #ffffff;
     font-family: "lato", sans-serif;
     font-size: 20px;
@@ -193,12 +190,10 @@ header .text .btn-top:hover {
     letter-spacing: 1.13px;
     padding: 5px 20px;
   }
-
   header .nav-top span {
     color: #ed145b;
     letter-spacing: 1.13px;
   }
-
   header .nav-top ul {
     width: 100%;
     display: -webkit-box;
@@ -206,27 +201,25 @@ header .text .btn-top:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-top: 20px;
     list-style: none;
     padding-right: 0px;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 30vh;
   }
-
   header .nav-top li {
     padding: 0px 10px;
     -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
-
   header .nav-top a {
     font-size: 16px;
     font-family: "lato", sans-serif;
@@ -237,11 +230,9 @@ header .text .btn-top:hover {
     -webkit-transition: linear 0.1s;
     transition: linear 0.1s;
   }
-
   header .nav-top a:hover {
     color: grey;
   }
-
   header .text {
     height: 65%;
     display: -webkit-box;
@@ -249,16 +240,15 @@ header .text .btn-top:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -ms-flex-line-pack: center;
-    align-content: center;
+        align-content: center;
     text-align: center;
   }
-
   header .text .title-two {
     color: #ffffff;
     font-family: "lato", sans-serif;
@@ -266,17 +256,15 @@ header .text .btn-top:hover {
     font-weight: 300;
     text-transform: uppercase;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     line-height: 35px;
   }
-
   header .text span {
     font-family: "lato", sans-serif;
     font-weight: 600;
     letter-spacing: 1.15px;
   }
-
   header .text .line {
     border-top: 2px solid #ed145b;
     width: 200px;
@@ -284,7 +272,6 @@ header .text .btn-top:hover {
     margin: 0 auto;
     margin-top: 40px;
   }
-
   header .text p {
     margin-top: 30px;
     font-family: "lato", sans-serif;
@@ -294,7 +281,6 @@ header .text .btn-top:hover {
     letter-spacing: 0.55px;
     line-height: 30px;
   }
-
   header .text .btn-top {
     width: 200px;
     height: 50px;
@@ -312,7 +298,6 @@ header .text .btn-top:hover {
     -webkit-transition: linear 0.2s;
     transition: linear 0.2s;
   }
-
   header .text .btn-top:hover {
     background-color: #ffffff;
     color: #ed145b;
@@ -321,18 +306,16 @@ header .text .btn-top:hover {
 
 @media (min-width: 768px) and (max-width: 991px) {
   header {
-    height: 90vh;
-    background-image: url(./scss/Images/Background.png);
+    background-image: url(./Images/Background.png);
     background-size: cover;
     background-position: center;
     position: relative;
     z-index: 1;
   }
-
   header .nav-top .title {
     -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     color: #ffffff;
     font-family: "lato", sans-serif;
     font-size: 20px;
@@ -341,12 +324,10 @@ header .text .btn-top:hover {
     letter-spacing: 1.13px;
     padding: 5px 20px;
   }
-
   header .nav-top span {
     color: #ed145b;
     letter-spacing: 1.13px;
   }
-
   header .nav-top ul {
     width: 100%;
     display: -webkit-box;
@@ -354,27 +335,25 @@ header .text .btn-top:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-top: 20px;
     list-style: none;
     padding-right: 0px;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 30vh;
   }
-
   header .nav-top li {
     padding: 0px 10px;
     -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
-
   header .nav-top a {
     font-size: 16px;
     font-family: "lato", sans-serif;
@@ -385,11 +364,9 @@ header .text .btn-top:hover {
     -webkit-transition: linear 0.1s;
     transition: linear 0.1s;
   }
-
   header .nav-top a:hover {
     color: grey;
   }
-
   header .text {
     height: 55%;
     display: -webkit-box;
@@ -397,16 +374,15 @@ header .text .btn-top:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -ms-flex-line-pack: center;
-    align-content: center;
+        align-content: center;
     text-align: center;
   }
-
   header .text .title-two {
     color: #ffffff;
     font-family: "lato", sans-serif;
@@ -414,17 +390,15 @@ header .text .btn-top:hover {
     font-weight: 300;
     text-transform: uppercase;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     line-height: 35px;
   }
-
   header .text span {
     font-family: "lato", sans-serif;
     font-weight: 600;
     letter-spacing: 1.15px;
   }
-
   header .text .line {
     border-top: 2px solid #ed145b;
     width: 200px;
@@ -432,7 +406,6 @@ header .text .btn-top:hover {
     margin: 0 auto;
     margin-top: 40px;
   }
-
   header .text p {
     margin-top: 30px;
     font-family: "lato", sans-serif;
@@ -442,7 +415,6 @@ header .text .btn-top:hover {
     letter-spacing: 0.55px;
     line-height: 30px;
   }
-
   header .text .btn-top {
     width: 200px;
     height: 50px;
@@ -460,7 +432,6 @@ header .text .btn-top:hover {
     -webkit-transition: linear 0.2s;
     transition: linear 0.2s;
   }
-
   header .text .btn-top:hover {
     background-color: #ffffff;
     color: #ed145b;
@@ -469,18 +440,16 @@ header .text .btn-top:hover {
 
 @media (min-width: 992px) and (max-width: 1199px) {
   header {
-    height: 70vh;
-    background-image: url(./scss/Images/Background.png);
+    background-image: url(./Images/Background.png);
     background-size: cover;
     background-position: center;
     position: relative;
     z-index: 1;
   }
-
   header .nav-top .title {
     -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     color: #ffffff;
     font-family: "lato", sans-serif;
     font-size: 20px;
@@ -489,12 +458,10 @@ header .text .btn-top:hover {
     letter-spacing: 1.13px;
     padding: 5px 20px;
   }
-
   header .nav-top span {
     color: #ed145b;
     letter-spacing: 1.13px;
   }
-
   header .nav-top ul {
     width: 100%;
     display: -webkit-box;
@@ -502,27 +469,25 @@ header .text .btn-top:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-top: 20px;
     list-style: none;
     padding-right: 0px;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 30vh;
   }
-
   header .nav-top li {
     padding: 0px 10px;
     -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
-
   header .nav-top a {
     font-size: 16px;
     font-family: "lato", sans-serif;
@@ -533,11 +498,9 @@ header .text .btn-top:hover {
     -webkit-transition: linear 0.1s;
     transition: linear 0.1s;
   }
-
   header .nav-top a:hover {
     color: grey;
   }
-
   header .text {
     height: 55%;
     display: -webkit-box;
@@ -545,16 +508,15 @@ header .text .btn-top:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -ms-flex-line-pack: center;
-    align-content: center;
+        align-content: center;
     text-align: center;
   }
-
   header .text .title-two {
     color: #ffffff;
     font-family: "lato", sans-serif;
@@ -562,17 +524,15 @@ header .text .btn-top:hover {
     font-weight: 300;
     text-transform: uppercase;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     line-height: 35px;
   }
-
   header .text span {
     font-family: "lato", sans-serif;
     font-weight: 600;
     letter-spacing: 1.15px;
   }
-
   header .text .line {
     border-top: 2px solid #ed145b;
     width: 200px;
@@ -580,7 +540,6 @@ header .text .btn-top:hover {
     margin: 0 auto;
     margin-top: 40px;
   }
-
   header .text p {
     margin-top: 30px;
     font-family: "lato", sans-serif;
@@ -590,7 +549,6 @@ header .text .btn-top:hover {
     letter-spacing: 0.55px;
     line-height: 30px;
   }
-
   header .text .btn-top {
     width: 200px;
     height: 50px;
@@ -608,7 +566,6 @@ header .text .btn-top:hover {
     -webkit-transition: linear 0.2s;
     transition: linear 0.2s;
   }
-
   header .text .btn-top:hover {
     background-color: #ffffff;
     color: #ed145b;
@@ -630,16 +587,16 @@ header .text .btn-top:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about .about-title {
   -ms-flex-item-align: start;
-  align-self: flex-start;
+      align-self: flex-start;
   color: #5a5a5a;
   font-family: "lato", sans-serif;
   font-size: 38px;
@@ -651,15 +608,15 @@ header .text .btn-top:hover {
 
 .about .about-line {
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   border-top: 2px solid #ed145b;
   width: 200px;
 }
 
 .about p {
   -ms-flex-item-align: start;
-  align-self: flex-start;
+      align-self: flex-start;
   padding: 50px 0;
   width: 467px;
   color: #5a5a5a;
@@ -672,7 +629,7 @@ header .text .btn-top:hover {
 
 .about button {
   -ms-flex-item-align: start;
-  align-self: flex-start;
+      align-self: flex-start;
   border: none;
   background-color: transparent;
   color: #ed145b;
@@ -712,11 +669,9 @@ header .text .btn-top:hover {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    height: 120vh;
+        flex-wrap: wrap;
     background-color: #f4f4f4;
   }
-
   .about .texts {
     margin: 15px auto;
     display: -webkit-box;
@@ -724,16 +679,15 @@ header .text .btn-top:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-
   .about .about-title {
     -ms-flex-item-align: start;
-    align-self: flex-start;
+        align-self: flex-start;
     color: #5a5a5a;
     font-family: "lato", sans-serif;
     font-size: 33px;
@@ -742,18 +696,16 @@ header .text .btn-top:hover {
     line-height: 52px;
     letter-spacing: 0.5px;
   }
-
   .about .about-line {
     -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     border-top: 2px solid #ed145b;
     width: 200px;
   }
-
   .about p {
     -ms-flex-item-align: start;
-    align-self: flex-start;
+        align-self: flex-start;
     padding: 50px 0;
     width: 350px;
     color: #5a5a5a;
@@ -763,10 +715,9 @@ header .text .btn-top:hover {
     line-height: 30px;
     letter-spacing: 0.38px;
   }
-
   .about button {
     -ms-flex-item-align: start;
-    align-self: flex-start;
+        align-self: flex-start;
     border: none;
     background-color: transparent;
     color: #ed145b;
@@ -780,19 +731,15 @@ header .text .btn-top:hover {
     transition: 0.3s linear;
     cursor: pointer;
   }
-
   .about button:hover .fas {
     color: #5a5a5a;
   }
-
   .about button .fas {
     padding-left: 3px;
   }
-
   .about .img-mac {
     margin: 0 auto;
   }
-
   .about .img-mac img {
     margin-top: 50px;
     width: 350px;
@@ -807,11 +754,9 @@ header .text .btn-top:hover {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    height: 50vh;
+        flex-wrap: wrap;
     background-color: #f4f4f4;
   }
-
   .about .texts {
     margin: 15px auto;
     display: -webkit-box;
@@ -819,16 +764,15 @@ header .text .btn-top:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-
   .about .about-title {
     -ms-flex-item-align: start;
-    align-self: flex-start;
+        align-self: flex-start;
     color: #5a5a5a;
     font-family: "lato", sans-serif;
     font-size: 33px;
@@ -837,18 +781,16 @@ header .text .btn-top:hover {
     line-height: 52px;
     letter-spacing: 0.5px;
   }
-
   .about .about-line {
     -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     border-top: 2px solid #ed145b;
     width: 200px;
   }
-
   .about p {
     -ms-flex-item-align: start;
-    align-self: flex-start;
+        align-self: flex-start;
     padding: 50px 0;
     width: 350px;
     color: #5a5a5a;
@@ -858,10 +800,9 @@ header .text .btn-top:hover {
     line-height: 30px;
     letter-spacing: 0.38px;
   }
-
   .about button {
     -ms-flex-item-align: start;
-    align-self: flex-start;
+        align-self: flex-start;
     border: none;
     background-color: transparent;
     color: #ed145b;
@@ -875,19 +816,18 @@ header .text .btn-top:hover {
     transition: 0.3s linear;
     cursor: pointer;
   }
-
   .about button:hover .fas {
     color: #5a5a5a;
   }
-
   .about button .fas {
     padding-left: 3px;
   }
-
   .about .img-mac {
     margin: 0 auto;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
-
   .about .img-mac img {
     margin-top: 50px;
     width: 350px;
@@ -902,11 +842,9 @@ header .text .btn-top:hover {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    height: 50vh;
+        flex-wrap: wrap;
     background-color: #f4f4f4;
   }
-
   .about .texts {
     margin: 15px auto;
     display: -webkit-box;
@@ -914,16 +852,15 @@ header .text .btn-top:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-
   .about .about-title {
     -ms-flex-item-align: start;
-    align-self: flex-start;
+        align-self: flex-start;
     color: #5a5a5a;
     font-family: "lato", sans-serif;
     font-size: 33px;
@@ -932,18 +869,16 @@ header .text .btn-top:hover {
     line-height: 52px;
     letter-spacing: 0.5px;
   }
-
   .about .about-line {
     -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     border-top: 2px solid #ed145b;
     width: 200px;
   }
-
   .about p {
     -ms-flex-item-align: start;
-    align-self: flex-start;
+        align-self: flex-start;
     padding: 50px 0;
     width: 350px;
     color: #5a5a5a;
@@ -953,10 +888,9 @@ header .text .btn-top:hover {
     line-height: 30px;
     letter-spacing: 0.38px;
   }
-
   .about button {
     -ms-flex-item-align: start;
-    align-self: flex-start;
+        align-self: flex-start;
     border: none;
     background-color: transparent;
     color: #ed145b;
@@ -970,44 +904,40 @@ header .text .btn-top:hover {
     transition: 0.3s linear;
     cursor: pointer;
   }
-
   .about button:hover .fas {
     color: #5a5a5a;
   }
-
   .about button .fas {
     padding-left: 3px;
   }
-
   .about .img-mac {
     margin: 0 auto;
   }
-
   .about .img-mac img {
     -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     width: 550px;
     height: 450px;
   }
 }
 
 .services {
-  height: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -ms-flex-line-pack: justify;
-  align-content: space-between;
+      align-content: space-between;
+  margin-top: 20px;
 }
 
 .services .service-title {
@@ -1022,15 +952,15 @@ header .text .btn-top:hover {
 
 .services .service-line {
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   border-bottom: 2px solid #ed145b;
   width: 200px;
 }
 
 .services .service-text {
   width: 677px;
-  height: 60px;
+  margin-top: 10px;
   text-align: center;
   color: #5a5a5a;
   font-size: 15px;
@@ -1045,15 +975,16 @@ header .text .btn-top:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -ms-flex-line-pack: distribute;
-  align-content: space-around;
+      align-content: space-around;
+  margin-top: 10px;
   width: 1000px;
 }
 
@@ -1069,7 +1000,7 @@ header .text .btn-top:hover {
 
 .services .circles-section .circles:hover {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .services .circles-section .circles img {
@@ -1077,7 +1008,7 @@ header .text .btn-top:hover {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .services .circles-section p {
@@ -1094,24 +1025,22 @@ header .text .btn-top:hover {
 
 @media (max-width: 767px) {
   .services {
-    height: 100vh;
     margin-top: 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
     -ms-flex-line-pack: justify;
-    align-content: space-between;
+        align-content: space-between;
   }
-
   .services .service-title {
     font-family: "lato", sans-serif;
     font-size: 38px;
@@ -1121,18 +1050,15 @@ header .text .btn-top:hover {
     line-height: 52px;
     text-align: center;
   }
-
   .services .service-line {
     -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     border-bottom: 2px solid #ed145b;
     width: 200px;
   }
-
   .services .service-text {
     width: 350px;
-    height: 60px;
     text-align: center;
     color: #5a5a5a;
     font-size: 15px;
@@ -1141,26 +1067,24 @@ header .text .btn-top:hover {
     line-height: 30px;
     letter-spacing: 0.35px;
   }
-
   .services .circles-section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     -ms-flex-line-pack: distribute;
-    align-content: space-around;
+        align-content: space-around;
     width: 300px;
   }
-
   .services .circles-section .circles {
-    margin-top: 50px;
+    margin-top: 30px;
     border: 1px solid #5a5a5a;
     border-radius: 50%;
     height: 15vh;
@@ -1168,20 +1092,17 @@ header .text .btn-top:hover {
     -webkit-transition: 0.1s linear;
     transition: 0.1s linear;
   }
-
   .services .circles-section .circles:hover {
     -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+            transform: scale(1.1);
   }
-
   .services .circles-section .circles img {
     position: relative;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
-
   .services .circles-section p {
     text-align: center;
     margin-top: 10px;
@@ -1197,24 +1118,22 @@ header .text .btn-top:hover {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .services {
-    height: 80vh;
     margin-top: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
     -ms-flex-line-pack: justify;
-    align-content: space-between;
+        align-content: space-between;
   }
-
   .services .service-title {
     font-family: "lato", sans-serif;
     font-size: 38px;
@@ -1224,15 +1143,13 @@ header .text .btn-top:hover {
     line-height: 52px;
     text-align: center;
   }
-
   .services .service-line {
     -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     border-bottom: 2px solid #ed145b;
     width: 200px;
   }
-
   .services .service-text {
     width: 450px;
     height: 60px;
@@ -1244,24 +1161,22 @@ header .text .btn-top:hover {
     line-height: 30px;
     letter-spacing: 0.35px;
   }
-
   .services .circles-section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     -ms-flex-line-pack: distribute;
-    align-content: space-around;
+        align-content: space-around;
     width: 400px;
   }
-
   .services .circles-section .circles {
     margin-top: 50px;
     border: 1px solid #5a5a5a;
@@ -1271,20 +1186,17 @@ header .text .btn-top:hover {
     -webkit-transition: 0.1s linear;
     transition: 0.1s linear;
   }
-
   .services .circles-section .circles:hover {
     -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+            transform: scale(1.1);
   }
-
   .services .circles-section .circles img {
     position: relative;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
-
   .services .circles-section p {
     text-align: center;
     margin-top: 10px;
@@ -1299,9 +1211,8 @@ header .text .btn-top:hover {
 }
 
 .carousel {
-  height: 50vh;
   margin-top: 50px;
-  background-image: url(./scss/Images/Prostokąt_1_kopia_5.png);
+  background-image: url(./Images/Prostokąt_1_kopia_5.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1310,11 +1221,15 @@ header .text .btn-top:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 70px;
 }
 
 .carousel .caro-text {
@@ -1328,9 +1243,7 @@ header .text .btn-top:hover {
   width: 824px;
 }
 
-.carousel h2,
-.carousel .latest-updates .updates-project p,
-.latest-updates .updates-project .carousel p {
+.carousel h2, .carousel .latest-updates .updates-project p, .latest-updates .updates-project .carousel p {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color: #ed145b;
@@ -1339,7 +1252,7 @@ header .text .btn-top:hover {
   line-height: 52px;
   letter-spacing: 3.95px;
   -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .carousel h3 {
@@ -1355,9 +1268,8 @@ header .text .btn-top:hover {
 
 @media (max-width: 767px) {
   .carousel {
-    height: 85vh;
     margin-top: 50px;
-    background-image: url(./scss/Images/Prostokąt_1_kopia_5.png);
+    background-image: url(./Images/Prostokąt_1_kopia_5.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1366,13 +1278,12 @@ header .text .btn-top:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-
   .carousel .caro-text {
     text-align: center;
     color: #ffffff;
@@ -1381,12 +1292,9 @@ header .text .btn-top:hover {
     font-weight: 300;
     line-height: 40px;
     letter-spacing: 0.60px;
-    width: 360px;
+    width: 320px;
   }
-
-  .carousel h2,
-  .carousel .latest-updates .updates-project p,
-  .latest-updates .updates-project .carousel p {
+  .carousel h2, .carousel .latest-updates .updates-project p, .latest-updates .updates-project .carousel p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #ed145b;
@@ -1395,9 +1303,8 @@ header .text .btn-top:hover {
     line-height: 52px;
     letter-spacing: 3.95px;
     -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
+            transform: rotate(180deg);
   }
-
   .carousel h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: #ed145b;
@@ -1412,9 +1319,8 @@ header .text .btn-top:hover {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .carousel {
-    height: 60vh;
     margin-top: 50px;
-    background-image: url(./scss/Images/Prostokąt_1_kopia_5.png);
+    background-image: url(./Images/Prostokąt_1_kopia_5.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1423,13 +1329,12 @@ header .text .btn-top:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-
   .carousel .caro-text {
     text-align: center;
     color: #ffffff;
@@ -1440,10 +1345,7 @@ header .text .btn-top:hover {
     letter-spacing: 0.60px;
     width: 650px;
   }
-
-  .carousel h2,
-  .carousel .latest-updates .updates-project p,
-  .latest-updates .updates-project .carousel p {
+  .carousel h2, .carousel .latest-updates .updates-project p, .latest-updates .updates-project .carousel p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #ed145b;
@@ -1452,9 +1354,8 @@ header .text .btn-top:hover {
     line-height: 52px;
     letter-spacing: 3.95px;
     -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
+            transform: rotate(180deg);
   }
-
   .carousel h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: #ed145b;
@@ -1468,8 +1369,8 @@ header .text .btn-top:hover {
 }
 
 .prices {
-  height: 80vh;
   background-color: #f4f4f4;
+  padding: 30px;
 }
 
 .prices .prices-body {
@@ -1479,15 +1380,15 @@ header .text .btn-top:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -ms-flex-line-pack: justify;
-  align-content: space-between;
+      align-content: space-between;
 }
 
 .prices .price-title {
@@ -1502,6 +1403,7 @@ header .text .btn-top:hover {
 .prices .price-line {
   border-bottom: 2px solid #ed145b;
   width: 200px;
+  padding-top: 10px;
 }
 
 .prices .price-text {
@@ -1513,6 +1415,7 @@ header .text .btn-top:hover {
   line-height: 30px;
   letter-spacing: 0.38px;
   width: 681px;
+  padding: 25px 0;
 }
 
 .prices .cards {
@@ -1525,21 +1428,21 @@ header .text .btn-top:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-line-pack: distribute;
-  align-content: space-around;
+      align-content: space-around;
   width: 262px;
   height: 443px;
   background-color: #ffffff;
   -webkit-box-shadow: 4px 5px 5px rgba(104, 104, 104, 0.8);
-  box-shadow: 4px 5px 5px rgba(104, 104, 104, 0.8);
+          box-shadow: 4px 5px 5px rgba(104, 104, 104, 0.8);
 }
 
 .prices .standard-card .body-top {
@@ -1548,14 +1451,14 @@ header .text .btn-top:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 262px;
   height: 150px;
   background: #5a5a5a;
@@ -1639,17 +1542,15 @@ header .text .btn-top:hover {
 .prices .standard-card .buy-now:hover {
   border: 2px solid #ed145b;
   -webkit-transform: scale(1.1, 1.1);
-  transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
   background-color: #ffffff;
   color: #ed145b;
 }
 
 @media (max-width: 767px) {
   .prices {
-    height: 305vh;
     background-color: #f4f4f4;
   }
-
   .prices .prices-body {
     height: 100%;
     display: -webkit-box;
@@ -1657,17 +1558,16 @@ header .text .btn-top:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
     -ms-flex-line-pack: justify;
-    align-content: space-between;
+        align-content: space-between;
   }
-
   .prices .price-title {
     color: #5a5a5a;
     font-family: 'lato', sans-serif;
@@ -1676,12 +1576,10 @@ header .text .btn-top:hover {
     line-height: 52px;
     letter-spacing: 0.95px;
   }
-
   .prices .price-line {
     border-bottom: 2px solid #ed145b;
     width: 200px;
   }
-
   .prices .price-text {
     text-align: center;
     color: #5a5a5a;
@@ -1692,56 +1590,52 @@ header .text .btn-top:hover {
     letter-spacing: 0.38px;
     width: 301px;
   }
-
   .prices .cards {
     width: 100%;
   }
-
   .prices .standard-card {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 5px auto;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -ms-flex-line-pack: distribute;
-    align-content: space-around;
+        align-content: space-around;
     width: 262px;
     height: 443px;
     background-color: #ffffff;
     -webkit-box-shadow: 4px 5px 5px rgba(104, 104, 104, 0.8);
-    box-shadow: 4px 5px 5px rgba(104, 104, 104, 0.8);
+            box-shadow: 4px 5px 5px rgba(104, 104, 104, 0.8);
   }
-
   .prices .standard-card .body-top {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 262px;
     height: 150px;
     background: #5a5a5a;
   }
-
   .prices .standard-card .body-top h4 {
     color: #f4f4f4;
     font-family: 'lato', sans-serif;
@@ -1751,7 +1645,6 @@ header .text .btn-top:hover {
     letter-spacing: 0.5px;
     margin-bottom: 20px;
   }
-
   .prices .standard-card .body-top span {
     color: #f4f4f4;
     font-size: 50px;
@@ -1760,7 +1653,6 @@ header .text .btn-top:hover {
     line-height: 38px;
     letter-spacing: 1.25px;
   }
-
   .prices .standard-card .body-top p {
     padding: 0;
     color: #f4f4f4;
@@ -1770,7 +1662,6 @@ header .text .btn-top:hover {
     line-height: 15px;
     letter-spacing: 0.38px;
   }
-
   .prices .standard-card .service-type {
     text-align: center;
     width: 200px;
@@ -1786,7 +1677,6 @@ header .text .btn-top:hover {
     font-weight: 700;
     margin-top: -50px;
   }
-
   .prices .standard-card ul {
     text-align: center;
     list-style: none;
@@ -1797,7 +1687,6 @@ header .text .btn-top:hover {
     font-weight: 300;
     line-height: 38px;
   }
-
   .prices .standard-card .buy-now {
     width: 200px;
     height: 50px;
@@ -1816,11 +1705,10 @@ header .text .btn-top:hover {
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease;
   }
-
   .prices .standard-card .buy-now:hover {
     border: 2px solid #ed145b;
     -webkit-transform: scale(1.1, 1.1);
-    transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
     background-color: #ffffff;
     color: #ed145b;
   }
@@ -1828,10 +1716,8 @@ header .text .btn-top:hover {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .prices {
-    height: 110vh;
     background-color: #f4f4f4;
   }
-
   .prices .prices-body {
     height: 100%;
     display: -webkit-box;
@@ -1839,17 +1725,16 @@ header .text .btn-top:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
     -ms-flex-line-pack: justify;
-    align-content: space-between;
+        align-content: space-between;
   }
-
   .prices .price-title {
     color: #5a5a5a;
     font-family: 'lato', sans-serif;
@@ -1858,12 +1743,10 @@ header .text .btn-top:hover {
     line-height: 52px;
     letter-spacing: 0.95px;
   }
-
   .prices .price-line {
     border-bottom: 2px solid #ed145b;
     width: 200px;
   }
-
   .prices .price-text {
     text-align: center;
     color: #5a5a5a;
@@ -1874,56 +1757,52 @@ header .text .btn-top:hover {
     letter-spacing: 0.38px;
     width: 401px;
   }
-
   .prices .cards {
     width: 80%;
   }
-
   .prices .standard-card {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 5px auto;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -ms-flex-line-pack: distribute;
-    align-content: space-around;
+        align-content: space-around;
     width: 262px;
     height: 443px;
     background-color: #ffffff;
     -webkit-box-shadow: 4px 5px 5px rgba(104, 104, 104, 0.8);
-    box-shadow: 4px 5px 5px rgba(104, 104, 104, 0.8);
+            box-shadow: 4px 5px 5px rgba(104, 104, 104, 0.8);
   }
-
   .prices .standard-card .body-top {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 262px;
     height: 150px;
     background: #5a5a5a;
   }
-
   .prices .standard-card .body-top h4 {
     color: #f4f4f4;
     font-family: 'lato', sans-serif;
@@ -1933,7 +1812,6 @@ header .text .btn-top:hover {
     letter-spacing: 0.5px;
     margin-bottom: 20px;
   }
-
   .prices .standard-card .body-top span {
     color: #f4f4f4;
     font-size: 50px;
@@ -1942,7 +1820,6 @@ header .text .btn-top:hover {
     line-height: 38px;
     letter-spacing: 1.25px;
   }
-
   .prices .standard-card .body-top p {
     padding: 0;
     color: #f4f4f4;
@@ -1952,7 +1829,6 @@ header .text .btn-top:hover {
     line-height: 15px;
     letter-spacing: 0.38px;
   }
-
   .prices .standard-card .service-type {
     text-align: center;
     width: 200px;
@@ -1968,7 +1844,6 @@ header .text .btn-top:hover {
     font-weight: 700;
     margin-top: -50px;
   }
-
   .prices .standard-card ul {
     text-align: center;
     list-style: none;
@@ -1979,7 +1854,6 @@ header .text .btn-top:hover {
     font-weight: 300;
     line-height: 38px;
   }
-
   .prices .standard-card .buy-now {
     width: 200px;
     height: 50px;
@@ -1998,11 +1872,10 @@ header .text .btn-top:hover {
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease;
   }
-
   .prices .standard-card .buy-now:hover {
     border: 2px solid #ed145b;
     -webkit-transform: scale(1.1, 1.1);
-    transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
     background-color: #ffffff;
     color: #ed145b;
   }
@@ -2010,10 +1883,8 @@ header .text .btn-top:hover {
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .prices {
-    height: 90vh;
     background-color: #f4f4f4;
   }
-
   .prices .prices-body {
     height: 100%;
     display: -webkit-box;
@@ -2021,17 +1892,16 @@ header .text .btn-top:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
     -ms-flex-line-pack: justify;
-    align-content: space-between;
+        align-content: space-between;
   }
-
   .prices .price-title {
     color: #5a5a5a;
     font-family: 'lato', sans-serif;
@@ -2040,12 +1910,10 @@ header .text .btn-top:hover {
     line-height: 52px;
     letter-spacing: 0.95px;
   }
-
   .prices .price-line {
     border-bottom: 2px solid #ed145b;
     width: 200px;
   }
-
   .prices .price-text {
     text-align: center;
     color: #5a5a5a;
@@ -2056,56 +1924,52 @@ header .text .btn-top:hover {
     letter-spacing: 0.38px;
     width: 401px;
   }
-
   .prices .cards {
     width: 60%;
   }
-
   .prices .standard-card {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 5px auto;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -ms-flex-line-pack: distribute;
-    align-content: space-around;
+        align-content: space-around;
     width: 262px;
     height: 443px;
     background-color: #ffffff;
     -webkit-box-shadow: 4px 5px 5px rgba(104, 104, 104, 0.8);
-    box-shadow: 4px 5px 5px rgba(104, 104, 104, 0.8);
+            box-shadow: 4px 5px 5px rgba(104, 104, 104, 0.8);
   }
-
   .prices .standard-card .body-top {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 262px;
     height: 150px;
     background: #5a5a5a;
   }
-
   .prices .standard-card .body-top h4 {
     color: #f4f4f4;
     font-family: 'lato', sans-serif;
@@ -2115,7 +1979,6 @@ header .text .btn-top:hover {
     letter-spacing: 0.5px;
     margin-bottom: 20px;
   }
-
   .prices .standard-card .body-top span {
     color: #f4f4f4;
     font-size: 50px;
@@ -2124,7 +1987,6 @@ header .text .btn-top:hover {
     line-height: 38px;
     letter-spacing: 1.25px;
   }
-
   .prices .standard-card .body-top p {
     padding: 0;
     color: #f4f4f4;
@@ -2134,7 +1996,6 @@ header .text .btn-top:hover {
     line-height: 15px;
     letter-spacing: 0.38px;
   }
-
   .prices .standard-card .service-type {
     text-align: center;
     width: 200px;
@@ -2150,7 +2011,6 @@ header .text .btn-top:hover {
     font-weight: 700;
     margin-top: -50px;
   }
-
   .prices .standard-card ul {
     text-align: center;
     list-style: none;
@@ -2161,7 +2021,6 @@ header .text .btn-top:hover {
     font-weight: 300;
     line-height: 38px;
   }
-
   .prices .standard-card .buy-now {
     width: 200px;
     height: 50px;
@@ -2180,29 +2039,28 @@ header .text .btn-top:hover {
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease;
   }
-
   .prices .standard-card .buy-now:hover {
     border: 2px solid #ed145b;
     -webkit-transform: scale(1.1, 1.1);
-    transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
     background-color: #ffffff;
     color: #ed145b;
   }
 }
 
 .offer {
-  height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 35px;
 }
 
 .offer .offers {
@@ -2210,26 +2068,28 @@ header .text .btn-top:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-preferred-size: 33%;
-  flex-basis: 33%;
+      flex-basis: 33%;
 }
 
 .offer .offers img {
-  margin: 0 10px;
+  margin: 0 5px;
   height: 57px;
   width: 57px;
 }
 
 .offer .offer-text {
   -ms-flex-preferred-size: 70%;
-  flex-basis: 70%;
+      flex-basis: 70%;
+  margin: 20px;
 }
 
-.offer .offer-text h2,
-.offer .offer-text .latest-updates .updates-project p,
-.latest-updates .updates-project .offer .offer-text p {
+.offer .offer-text h2, .offer .offer-text .latest-updates .updates-project p, .latest-updates .updates-project .offer .offer-text p {
   color: #ed145b;
   font-family: 'Lato', sans-serif;
   font-size: 15px;
@@ -2250,47 +2110,40 @@ header .text .btn-top:hover {
 
 @media (max-width: 767px) {
   .offer {
-    height: 110vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-top: 10px;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-
   .offer .offers {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -ms-flex-preferred-size: 16%;
-    flex-basis: 16%;
+        flex-basis: 16%;
   }
-
   .offer .offers img {
     margin: 0 10px;
     height: 40px;
     width: 40px;
   }
-
   .offer .offer-text {
     -ms-flex-preferred-size: 70%;
-    flex-basis: 70%;
+        flex-basis: 70%;
   }
-
-  .offer .offer-text h2,
-  .offer .offer-text .latest-updates .updates-project p,
-  .latest-updates .updates-project .offer .offer-text p {
+  .offer .offer-text h2, .offer .offer-text .latest-updates .updates-project p, .latest-updates .updates-project .offer .offer-text p {
     color: #ed145b;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
@@ -2299,7 +2152,63 @@ header .text .btn-top:hover {
     text-transform: uppercase;
     letter-spacing: 0.38px;
   }
+  .offer .offer-text p {
+    color: #5a5a5a;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+  }
+}
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .offer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 15px;
+  }
+  .offer .offers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-preferred-size: 33%;
+        flex-basis: 33%;
+  }
+  .offer .offers img {
+    margin: 0 5px;
+    height: 57px;
+    width: 57px;
+  }
+  .offer .offer-text {
+    -ms-flex-preferred-size: 90%;
+        flex-basis: 90%;
+    margin: 20px;
+  }
+  .offer .offer-text h2, .offer .offer-text .latest-updates .updates-project p, .latest-updates .updates-project .offer .offer-text p {
+    color: #ed145b;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.38px;
+  }
   .offer .offer-text p {
     color: #5a5a5a;
     font-family: 'Lato', sans-serif;
@@ -2311,17 +2220,16 @@ header .text .btn-top:hover {
 }
 
 .join-us {
-  height: 20vh;
   background-color: #ed145b;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .join-us .join-text {
@@ -2365,19 +2273,17 @@ header .text .btn-top:hover {
 
 @media (max-width: 767px) {
   .join-us {
-    height: 20vh;
     background-color: #ed145b;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-
   .join-us .join-text {
     color: #ffffff;
     font-family: 'Lato', sans-serif;
@@ -2388,12 +2294,10 @@ header .text .btn-top:hover {
     letter-spacing: 0.95px;
     padding: 0px;
   }
-
   .join-us .join-text span {
     font-weight: 700;
     letter-spacing: 0.95px;
   }
-
   .join-us .join-btn {
     width: 200px;
     height: 50px;
@@ -2410,7 +2314,108 @@ header .text .btn-top:hover {
     -webkit-transition: 0.3s linear;
     transition: 0.3s linear;
   }
+  .join-us .join-btn:hover {
+    background-color: #ed145b;
+    border: 2px solid white;
+    color: white;
+  }
+}
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .join-us {
+    background-color: #ed145b;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .join-us .join-text {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 52px;
+    text-transform: uppercase;
+    letter-spacing: 0.95px;
+    padding: 20px;
+  }
+  .join-us .join-text span {
+    font-weight: 700;
+    letter-spacing: 0.95px;
+  }
+  .join-us .join-btn {
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: #ed145b;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.38px;
+    cursor: pointer;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    margin-right: 20px;
+  }
+  .join-us .join-btn:hover {
+    background-color: #ed145b;
+    border: 2px solid white;
+    color: white;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .join-us {
+    background-color: #ed145b;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .join-us .join-text {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 52px;
+    text-transform: uppercase;
+    letter-spacing: 0.95px;
+    padding: 20px;
+  }
+  .join-us .join-text span {
+    font-weight: 700;
+    letter-spacing: 0.95px;
+  }
+  .join-us .join-btn {
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: #ed145b;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.38px;
+    cursor: pointer;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+    margin-right: 20px;
+  }
   .join-us .join-btn:hover {
     background-color: #ed145b;
     border: 2px solid white;
@@ -2419,19 +2424,18 @@ header .text .btn-top:hover {
 }
 
 .latest-updates {
-  height: 110vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   margin-top: 20px;
 }
 
@@ -2448,6 +2452,7 @@ header .text .btn-top:hover {
 .latest-updates .updates-line {
   border-bottom: 2px solid #ed145b;
   width: 200px;
+  margin-top: 10px;
 }
 
 .latest-updates .updates-text {
@@ -2461,7 +2466,8 @@ header .text .btn-top:hover {
   letter-spacing: 0.38px;
   text-align: center;
   -ms-flex-preferred-size: 5%;
-  flex-basis: 5%;
+      flex-basis: 5%;
+  margin: 20px;
 }
 
 .latest-updates .updates-project {
@@ -2470,20 +2476,19 @@ header .text .btn-top:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -ms-flex-line-pack: distribute;
-  align-content: space-around;
+      align-content: space-around;
   background-color: #f4f4f4;
   z-index: 1;
   padding-bottom: 10px;
   margin: 20px auto;
 }
 
-.latest-updates .updates-project h2,
-.latest-updates .updates-project p {
+.latest-updates .updates-project h2, .latest-updates .updates-project p {
   text-align: left;
   color: #5a5a5a;
   font-family: 'Lato', sans-serif;
@@ -2493,7 +2498,7 @@ header .text .btn-top:hover {
   text-transform: uppercase;
   letter-spacing: 0.1px;
   -ms-flex-preferred-size: 10%;
-  flex-basis: 10%;
+      flex-basis: 10%;
   margin-left: 15px;
 }
 
@@ -2507,7 +2512,7 @@ header .text .btn-top:hover {
 
 .latest-updates .updates-project .gradient-projects {
   -webkit-transform: skewY(-1.1deg);
-  transform: skewY(-1.1deg);
+          transform: skewY(-1.1deg);
   top: -4px;
   height: 9px;
   z-index: -1;
@@ -2530,27 +2535,25 @@ header .text .btn-top:hover {
   font-size: 20px;
   color: #ed145b;
   -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 @media (max-width: 767px) {
   .latest-updates {
-    height: 400vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
     margin-top: 20px;
   }
-
   .latest-updates .updates-title {
     color: #5a5a5a;
     font-family: 'lato', sans-serif;
@@ -2560,12 +2563,10 @@ header .text .btn-top:hover {
     letter-spacing: 0.95px;
     text-align: center;
   }
-
   .latest-updates .updates-line {
     border-bottom: 2px solid #ed145b;
     width: 200px;
   }
-
   .latest-updates .updates-text {
     width: 350px;
     height: 45px;
@@ -2577,29 +2578,26 @@ header .text .btn-top:hover {
     letter-spacing: 0.38px;
     text-align: center;
     -ms-flex-preferred-size: 5%;
-    flex-basis: 5%;
+        flex-basis: 5%;
   }
-
   .latest-updates .updates-project {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
     -ms-flex-line-pack: distribute;
-    align-content: space-around;
+        align-content: space-around;
     background-color: #f4f4f4;
     z-index: 1;
     padding-bottom: 10px;
     margin: 20px auto;
   }
-
-  .latest-updates .updates-project h2,
-  .latest-updates .updates-project p {
+  .latest-updates .updates-project h2, .latest-updates .updates-project p {
     text-align: left;
     color: #5a5a5a;
     font-family: 'Lato', sans-serif;
@@ -2609,10 +2607,9 @@ header .text .btn-top:hover {
     text-transform: uppercase;
     letter-spacing: 0.1px;
     -ms-flex-preferred-size: 10%;
-    flex-basis: 10%;
+        flex-basis: 10%;
     margin-left: 15px;
   }
-
   .latest-updates .updates-project p {
     text-align: left;
     color: #5a5a5a;
@@ -2621,22 +2618,20 @@ header .text .btn-top:hover {
     line-height: 30px;
     letter-spacing: 0.1px;
     -ms-flex-preferred-size: 10%;
-    flex-basis: 10%;
+        flex-basis: 10%;
     width: 307px;
     height: 44px;
     font-weight: 300;
     text-transform: none;
     margin-left: 15px;
   }
-
   .latest-updates .updates-project .gradient-projects {
     -webkit-transform: skewY(-1.1deg);
-    transform: skewY(-1.1deg);
+            transform: skewY(-1.1deg);
     top: -4px;
     height: 9px;
     z-index: -1;
   }
-
   .latest-updates button {
     color: #ed145b;
     font-family: 'Lato', sans-serif;
@@ -2649,33 +2644,30 @@ header .text .btn-top:hover {
     border: none;
     cursor: pointer;
   }
-
   .latest-updates button div {
     font-size: 20px;
     color: #ed145b;
     -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
+            transform: rotate(180deg);
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .latest-updates {
-    height: 150vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
     margin-top: 20px;
   }
-
   .latest-updates .updates-title {
     color: #5a5a5a;
     font-family: 'lato', sans-serif;
@@ -2685,12 +2677,10 @@ header .text .btn-top:hover {
     letter-spacing: 0.95px;
     text-align: center;
   }
-
   .latest-updates .updates-line {
     border-bottom: 2px solid #ed145b;
     width: 200px;
   }
-
   .latest-updates .updates-text {
     width: 350px;
     height: 45px;
@@ -2702,29 +2692,26 @@ header .text .btn-top:hover {
     letter-spacing: 0.38px;
     text-align: center;
     -ms-flex-preferred-size: 5%;
-    flex-basis: 5%;
+        flex-basis: 5%;
   }
-
   .latest-updates .updates-project {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
     -ms-flex-line-pack: distribute;
-    align-content: space-around;
+        align-content: space-around;
     background-color: #f4f4f4;
     z-index: 1;
     padding-bottom: 10px;
     margin: 20px auto;
   }
-
-  .latest-updates .updates-project h2,
-  .latest-updates .updates-project p {
+  .latest-updates .updates-project h2, .latest-updates .updates-project p {
     text-align: left;
     color: #5a5a5a;
     font-family: 'Lato', sans-serif;
@@ -2734,10 +2721,9 @@ header .text .btn-top:hover {
     text-transform: uppercase;
     letter-spacing: 0.1px;
     -ms-flex-preferred-size: 10%;
-    flex-basis: 10%;
+        flex-basis: 10%;
     margin-left: 15px;
   }
-
   .latest-updates .updates-project p {
     text-align: left;
     color: #5a5a5a;
@@ -2746,22 +2732,20 @@ header .text .btn-top:hover {
     line-height: 30px;
     letter-spacing: 0.1px;
     -ms-flex-preferred-size: 10%;
-    flex-basis: 10%;
+        flex-basis: 10%;
     width: 307px;
     height: 44px;
     font-weight: 300;
     text-transform: none;
     margin-left: 15px;
   }
-
   .latest-updates .updates-project .gradient-projects {
     -webkit-transform: skewY(-1.1deg);
-    transform: skewY(-1.1deg);
+            transform: skewY(-1.1deg);
     top: -4px;
     height: 9px;
     z-index: -1;
   }
-
   .latest-updates button {
     color: #ed145b;
     font-family: 'Lato', sans-serif;
@@ -2774,18 +2758,16 @@ header .text .btn-top:hover {
     border: none;
     cursor: pointer;
   }
-
   .latest-updates button div {
     font-size: 20px;
     color: #ed145b;
     -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
+            transform: rotate(180deg);
   }
 }
 
 .show-more {
-  height: 65vh;
-  background-image: url(./scss/Images/background3.png);
+  background-image: url(./Images/background3.png);
   background-size: cover;
   background-position: center;
 }
@@ -2796,15 +2778,16 @@ header .text .btn-top:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100%;
+  padding: 20px;
 }
 
 .show-more .show-title {
@@ -2816,13 +2799,13 @@ header .text .btn-top:hover {
   letter-spacing: 0.95px;
   text-align: center;
   -ms-flex-preferred-size: 15%;
-  flex-basis: 15%;
+      flex-basis: 15%;
 }
 
 .show-more .show-line {
   width: 200px;
   border-bottom: 2px solid #ed145b;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .show-more .show-text {
@@ -2835,7 +2818,7 @@ header .text .btn-top:hover {
   letter-spacing: 0.38px;
   text-align: center;
   -ms-flex-preferred-size: 30%;
-  flex-basis: 30%;
+      flex-basis: 30%;
 }
 
 .show-more .show-btn {
@@ -2846,6 +2829,7 @@ header .text .btn-top:hover {
   font-family: 'lato', sans-serif;
   font-weight: 700;
   border-radius: 25px;
+  margin: 10px;
   width: 200px;
   height: 50px;
   -webkit-transition: 0.3s linear;
@@ -2861,29 +2845,26 @@ header .text .btn-top:hover {
 
 @media (max-width: 767px) {
   .show-more {
-    height: 75vh;
-    background-image: url(./scss/Images/background3.png);
+    background-image: url(./Images/background3.png);
     background-size: cover;
     background-position: center;
   }
-
   .show-more .show {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
   }
-
   .show-more .show-title {
     color: #ffffff;
     font-family: 'lato', sans-serif;
@@ -2893,15 +2874,13 @@ header .text .btn-top:hover {
     letter-spacing: 0.95px;
     text-align: center;
     -ms-flex-preferred-size: 15%;
-    flex-basis: 15%;
+        flex-basis: 15%;
   }
-
   .show-more .show-line {
     width: 200px;
     border-bottom: 2px solid #ed145b;
     margin-bottom: 25px;
   }
-
   .show-more .show-text {
     width: 350px;
     color: #ffffff;
@@ -2912,9 +2891,8 @@ header .text .btn-top:hover {
     letter-spacing: 0.38px;
     text-align: center;
     -ms-flex-preferred-size: 30%;
-    flex-basis: 30%;
+        flex-basis: 30%;
   }
-
   .show-more .show-btn {
     border: none;
     text-transform: uppercase;
@@ -2930,7 +2908,6 @@ header .text .btn-top:hover {
     transition: 0.3s linear;
     cursor: pointer;
   }
-
   .show-more .show-btn:hover {
     background-color: #ffffff;
     color: #ed145b;
@@ -2940,29 +2917,26 @@ header .text .btn-top:hover {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .show-more {
-    height: 45vh;
-    background-image: url(./scss/Images/background3.png);
+    background-image: url(./Images/background3.png);
     background-size: cover;
     background-position: center;
   }
-
   .show-more .show {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
   }
-
   .show-more .show-title {
     color: #ffffff;
     font-family: 'lato', sans-serif;
@@ -2972,15 +2946,13 @@ header .text .btn-top:hover {
     letter-spacing: 0.95px;
     text-align: center;
     -ms-flex-preferred-size: 15%;
-    flex-basis: 15%;
+        flex-basis: 15%;
   }
-
   .show-more .show-line {
     width: 200px;
     border-bottom: 2px solid #ed145b;
     margin-bottom: 25px;
   }
-
   .show-more .show-text {
     width: 600px;
     color: #ffffff;
@@ -2991,9 +2963,8 @@ header .text .btn-top:hover {
     letter-spacing: 0.38px;
     text-align: center;
     -ms-flex-preferred-size: 30%;
-    flex-basis: 30%;
+        flex-basis: 30%;
   }
-
   .show-more .show-btn {
     border: none;
     text-transform: uppercase;
@@ -3009,7 +2980,6 @@ header .text .btn-top:hover {
     transition: 0.3s linear;
     cursor: pointer;
   }
-
   .show-more .show-btn:hover {
     background-color: #ffffff;
     color: #ed145b;
@@ -3019,29 +2989,26 @@ header .text .btn-top:hover {
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .show-more {
-    height: 40vh;
-    background-image: url(./scss/Images/background3.png);
+    background-image: url(./Images/background3.png);
     background-size: cover;
     background-position: center;
   }
-
   .show-more .show {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
   }
-
   .show-more .show-title {
     color: #ffffff;
     font-family: 'lato', sans-serif;
@@ -3051,15 +3018,13 @@ header .text .btn-top:hover {
     letter-spacing: 0.95px;
     text-align: center;
     -ms-flex-preferred-size: 15%;
-    flex-basis: 15%;
+        flex-basis: 15%;
   }
-
   .show-more .show-line {
     width: 200px;
     border-bottom: 2px solid #ed145b;
     margin-bottom: 25px;
   }
-
   .show-more .show-text {
     width: 600px;
     color: #ffffff;
@@ -3070,9 +3035,8 @@ header .text .btn-top:hover {
     letter-spacing: 0.38px;
     text-align: center;
     -ms-flex-preferred-size: 30%;
-    flex-basis: 30%;
+        flex-basis: 30%;
   }
-
   .show-more .show-btn {
     border: none;
     text-transform: uppercase;
@@ -3088,7 +3052,6 @@ header .text .btn-top:hover {
     transition: 0.3s linear;
     cursor: pointer;
   }
-
   .show-more .show-btn:hover {
     background-color: #ffffff;
     color: #ed145b;
@@ -3097,20 +3060,21 @@ header .text .btn-top:hover {
 }
 
 .download {
-  height: 80vh;
   background-color: #f4f4f4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 15px;
 }
 
 .download .dl-img {
+  margin-top: 20px;
   margin-left: 45px;
 }
 
@@ -3120,10 +3084,10 @@ header .text .btn-top:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-preferred-size: 34%;
-  flex-basis: 34%;
+      flex-basis: 34%;
   margin-left: 35px;
 }
 
@@ -3175,37 +3139,33 @@ header .text .btn-top:hover {
 
 @media (max-width: 767px) {
   .download {
-    height: 130vh;
     background-color: #f4f4f4;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px 0;
   }
-
   .download .dl-img {
     margin: 0 auto;
   }
-
   .download .dl-img img {
     width: 350px;
   }
-
   .download .text-section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 35px;
   }
-
   .download .text-section .dl-title {
     color: #5a5a5a;
     font-family: 'lato', sans-serif;
@@ -3216,12 +3176,10 @@ header .text .btn-top:hover {
     margin-bottom: 20px;
     width: 320px;
   }
-
   .download .text-section .dl-line {
     border-bottom: 2px solid #ed145b;
     width: 200px;
   }
-
   .download .text-section .dl-text {
     color: #5a5a5a;
     font-family: 'lato', sans-serif;
@@ -3231,7 +3189,6 @@ header .text .btn-top:hover {
     letter-spacing: 0.38px;
     margin: 30px 0;
   }
-
   .download .text-section .dl-btn {
     border: none;
     text-transform: uppercase;
@@ -3246,7 +3203,6 @@ header .text .btn-top:hover {
     transition: 0.3s linear;
     cursor: pointer;
   }
-
   .download .text-section .dl-btn:hover {
     background-color: #ffffff;
     color: #ed145b;
@@ -3256,37 +3212,32 @@ header .text .btn-top:hover {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .download {
-    height: 60vh;
     background-color: #f4f4f4;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-
   .download .dl-img {
     margin: 0 20px;
   }
-
   .download .dl-img img {
     width: 350px;
   }
-
   .download .text-section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 0px;
   }
-
   .download .text-section .dl-title {
     color: #5a5a5a;
     font-family: 'lato', sans-serif;
@@ -3297,12 +3248,10 @@ header .text .btn-top:hover {
     margin-bottom: 20px;
     width: 320px;
   }
-
   .download .text-section .dl-line {
     border-bottom: 2px solid #ed145b;
     width: 200px;
   }
-
   .download .text-section .dl-text {
     color: #5a5a5a;
     font-family: 'lato', sans-serif;
@@ -3312,7 +3261,6 @@ header .text .btn-top:hover {
     letter-spacing: 0.38px;
     margin: 30px 0;
   }
-
   .download .text-section .dl-btn {
     border: none;
     text-transform: uppercase;
@@ -3326,8 +3274,8 @@ header .text .btn-top:hover {
     -webkit-transition: 0.3s linear;
     transition: 0.3s linear;
     cursor: pointer;
+    margin-bottom: 10px;
   }
-
   .download .text-section .dl-btn:hover {
     background-color: #ffffff;
     color: #ed145b;
@@ -3337,37 +3285,32 @@ header .text .btn-top:hover {
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .download {
-    height: 60vh;
     background-color: #f4f4f4;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-
   .download .dl-img {
     margin: 0 20px;
   }
-
   .download .dl-img img {
     width: 600px;
   }
-
   .download .text-section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 0px;
   }
-
   .download .text-section .dl-title {
     color: #5a5a5a;
     font-family: 'lato', sans-serif;
@@ -3378,12 +3321,10 @@ header .text .btn-top:hover {
     margin-bottom: 20px;
     width: 320px;
   }
-
   .download .text-section .dl-line {
     border-bottom: 2px solid #ed145b;
     width: 200px;
   }
-
   .download .text-section .dl-text {
     color: #5a5a5a;
     font-family: 'lato', sans-serif;
@@ -3393,7 +3334,6 @@ header .text .btn-top:hover {
     letter-spacing: 0.38px;
     margin: 30px 0;
   }
-
   .download .text-section .dl-btn {
     border: none;
     text-transform: uppercase;
@@ -3408,7 +3348,6 @@ header .text .btn-top:hover {
     transition: 0.3s linear;
     cursor: pointer;
   }
-
   .download .text-section .dl-btn:hover {
     background-color: #ffffff;
     color: #ed145b;
@@ -3421,12 +3360,12 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #2b2b2b;
-  height: 10vh;
+  padding: 15px;
 }
 
 footer p {
@@ -3444,12 +3383,10 @@ footer p {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: #2b2b2b;
-    height: 15vh;
   }
-
   footer p {
     text-align: center;
     color: #ffffff;
@@ -3466,10 +3403,9 @@ footer p {
   background-color: #ed145b;
   height: 38px;
   -webkit-transform: rotateY(-1deg);
-  transform: rotateY(-1deg);
+          transform: rotateY(-1deg);
   position: relative;
   top: -20px;
   z-index: -1;
 }
-
 /*# sourceMappingURL=style.css.map */

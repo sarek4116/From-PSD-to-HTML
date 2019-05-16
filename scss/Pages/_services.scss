@@ -1,10 +1,10 @@
 .services {
-    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     align-content: space-between;
+    margin-top: 20px;
 
     .service-title {
         font-family: "lato", sans-serif;
@@ -24,7 +24,7 @@
 
     .service-text {
         width: 677px;
-        height: 60px;
+        margin-top: 10px;
         text-align: center;
         color: $about-color;
         font-size: 15px;
@@ -40,6 +40,7 @@
         justify-content: space-between;
         align-items: flex-start;
         align-content: space-around;
+        margin-top: 10px;
         width: 1000px;
 
 
@@ -80,7 +81,6 @@
 
 @media(max-width: 767px) {
     .services {
-        height: 100vh;
         margin-top: 10px;
         display: flex;
         flex-direction: column;
@@ -106,7 +106,6 @@
 
         .service-text {
             width: 350px;
-            height: 60px;
             text-align: center;
             color: $about-color;
             font-size: 15px;
@@ -127,7 +126,7 @@
 
 
             .circles {
-                margin-top: 50px;
+                margin-top: 30px;
                 border: 1px solid $about-color;
                 border-radius: 50%;
                 height: 15vh;
@@ -163,7 +162,6 @@
 
 @media(min-width: 768px) and (max-width: 991px) {
     .services {
-        height: 80vh;
         margin-top: 20px;
         display: flex;
         flex-direction: column;

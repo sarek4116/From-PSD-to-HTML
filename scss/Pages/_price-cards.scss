@@ -1,6 +1,6 @@
 .prices {
-    height: 80vh;
     background-color: $about-background;
+    padding: 30px;
 
     .prices-body {
         height: 100%;
@@ -23,6 +23,7 @@
     .price-line {
         border-bottom: 2px solid $main-color;
         width: 200px;
+        padding-top: 10px;
     }
 
     .price-text {
@@ -34,7 +35,7 @@
         line-height: 30px;
         letter-spacing: 0.38px;
         width: 681px;
-
+        padding: 25px 0;
     }
 
     .cards {
@@ -161,7 +162,6 @@
 
 @media(max-width: 767px) {
     .prices {
-        height: 350vh;
         background-color: $about-background;
 
         .prices-body {
@@ -326,7 +326,6 @@
 
 @media(min-width: 768px) and (max-width: 991px) {
     .prices {
-        height: 110vh;
         background-color: $about-background;
 
         .prices-body {
@@ -491,7 +490,6 @@
 
 @media(min-width: 992px) and (max-width: 1199px) {
     .prices {
-        height: 90vh;
         background-color: $about-background;
 
         .prices-body {

@@ -1,6 +1,5 @@
 .show-more {
-    height: 65vh;
-    background-image: url(./scss/Images/background3.png);
+    background-image: url(./Images/background3.png);
     background-size: cover;
     background-position: center;
 
@@ -10,7 +9,7 @@
         justify-content: center;
         align-items: center;
         height: 100%;
-
+        padding: 20px;
     }
 
     .show-title {
@@ -27,7 +26,7 @@
     .show-line {
         width: 200px;
         border-bottom: 2px solid $main-color;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
     }
 
     .show-text {
@@ -50,6 +49,7 @@
         font-family: 'lato', sans-serif;
         font-weight: 700;
         border-radius: 25px;
+        margin: 10px;
         width: 200px;
         height: 50px;
         transition: 0.3s linear;
@@ -65,8 +65,7 @@
 
 @media(max-width: 767px) {
     .show-more {
-        height: 75vh;
-        background-image: url(./scss/Images/background3.png);
+        background-image: url(./Images/background3.png);
         background-size: cover;
         background-position: center;
 
@@ -133,8 +132,7 @@
 
 @media(min-width: 768px) and (max-width: 991px) {
     .show-more {
-        height: 45vh;
-        background-image: url(./scss/Images/background3.png);
+        background-image: url(./Images/background3.png);
         background-size: cover;
         background-position: center;
 
@@ -201,8 +199,7 @@
 
 @media(min-width: 992px) and (max-width: 1199px) {
     .show-more {
-        height: 40vh;
-        background-image: url(./scss/Images/background3.png);
+        background-image: url(./Images/background3.png);
         background-size: cover;
         background-position: center;
 

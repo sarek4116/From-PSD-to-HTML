@@ -1,5 +1,4 @@
 .latest-updates {
-    height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,6 +20,7 @@
     .updates-line {
         border-bottom: 2px solid $main-color;
         width: 200px;
+        margin-top: 10px;
     }
 
     .updates-text {
@@ -34,6 +34,7 @@
         letter-spacing: 0.38px;
         text-align: center;
         flex-basis: 5%;
+        margin: 20px;
     }
 
 
@@ -101,7 +102,6 @@
 
 @media(max-width: 767px) {
     .latest-updates {
-        height: 400vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -210,7 +210,6 @@
 
 @media(min-width: 768px) and (max-width: 991px) {
     .latest-updates {
-        height: 150vh;
         display: flex;
         flex-direction: column;
         align-items: center;

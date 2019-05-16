@@ -3,7 +3,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     background-color: $footer-bgc;
-    height: 10vh;
+    padding: 15px;
 }
 
 footer p {
@@ -20,7 +20,6 @@ footer p {
         display: flex;
         align-items: center;
         background-color: $footer-bgc;
-        height: 15vh;
     }
 
     footer p {
