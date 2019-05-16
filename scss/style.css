@@ -3394,11 +3394,8 @@ footer p {
 }
 
 .gradient {
-  width: 100%;
   background-color: #ed145b;
   height: 38px;
-  -webkit-transform: rotateY(-1deg);
-          transform: rotateY(-1deg);
   position: relative;
   top: -20px;
   z-index: -1;

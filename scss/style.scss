@@ -14,10 +14,8 @@
 @import './Pages/footer';
 
 .gradient {
-    width: 100%;
     background-color: $main-color;
     height: 38px;
-    transform: rotateY(-1deg);
     position: relative;
     top: -20px;
     z-index: -1;
